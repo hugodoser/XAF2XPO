@@ -11,16 +11,21 @@ using System.Collections.Generic;
 using DevExpress.ExpressApp.Model;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
+using DevExpress.ExpressApp.ConditionalAppearance;
 
 namespace XAF2XPO.Module.BusinessObjects
 {
     [DefaultClassOptions]
-[ModelDefault("Caption", "Task")]
+    [ModelDefault("Caption", "Task")]
+    [Appearance("FontColorRed", AppearanceItemType = "ViewItem", TargetItems = "*", Context = "ListView",
+    Criteria = "Status!='Completed'", FontColor = "Red")]
     public class DemoTask : Task
     {
         public DemoTask(Session session) : base(session) { }
 
         private Priority priority;
+        [Appearance("PriorityBackColorPink", AppearanceItemType = "ViewItem", Context = "Any",
+        Criteria = "Priority=2", BackColor = "255, 240, 240")]
         public Priority Priority
         {
             get { return priority; }

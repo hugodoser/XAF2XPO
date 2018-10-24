@@ -104,6 +104,19 @@ namespace XAF2XPO.Module.BusinessObjects
                 return GetCollection<DemoTask>("Tasks"); //Many
             }
         }
+
+        private XPCollection<AuditDataItemPersistent> changeHistory;
+        public XPCollection<AuditDataItemPersistent> ChangeHistory
+        {
+            get
+            {
+                if (changeHistory == null)
+                {
+                    changeHistory = AuditedObjectWeakReference.GetAuditTrail(Session, this);
+                }
+                return changeHistory;
+            }
+        }
     }
 
     public enum TitleOfCourtesy {

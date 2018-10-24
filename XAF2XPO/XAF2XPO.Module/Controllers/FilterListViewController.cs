@@ -14,7 +14,6 @@ using DevExpress.ExpressApp.Utils;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
 
-using DevExpress.Data.Filtering;
 using XAF2XPO.Module.BusinessObjects;
 
 namespace XAF2XPO.Module.Controllers
