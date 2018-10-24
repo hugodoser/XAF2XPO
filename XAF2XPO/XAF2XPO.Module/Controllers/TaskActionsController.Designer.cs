@@ -45,6 +45,7 @@
             // 
             this.Actions.Add(this.SetTaskAction);
             this.TargetObjectType = typeof(XAF2XPO.Module.BusinessObjects.DemoTask);
+            this.Activated += new System.EventHandler(this.TaskActionsController_Activated);
 
         }
 

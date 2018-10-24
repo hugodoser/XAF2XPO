@@ -23,18 +23,60 @@ namespace XAF2XPO.Module.DatabaseUpdate {
         {
             base.UpdateDatabaseAfterUpdateSchema();
 
-            Contact contactMary = ObjectSpace.FindObject<Contact>(
-                CriteriaOperator.Parse("FirstName == 'Mary' && LastName == 'Tellitson'"));
-            if (contactMary == null)
+            PermissionPolicyRole adminRole = ObjectSpace.FindObject<PermissionPolicyRole>(
+         new BinaryOperator("Name", SecurityStrategy.AdministratorRoleName));
+            if (adminRole == null)
             {
-                contactMary = ObjectSpace.CreateObject<Contact>();
-                contactMary.FirstName = "Mary";
-                contactMary.LastName = "Tellitson";
-                contactMary.Email = "tellitson@example.com";
-                contactMary.Birthday = new DateTime(1980, 11, 27);
+                adminRole = ObjectSpace.CreateObject<PermissionPolicyRole>();
+                adminRole.Name = SecurityStrategy.AdministratorRoleName;
+                adminRole.IsAdministrative = true;
             }
-            //... 
-            ObjectSpace.CommitChanges();
+            PermissionPolicyRole userRole = ObjectSpace.FindObject<PermissionPolicyRole>(new BinaryOperator("Name", "Users"));
+            if (userRole == null)
+            {
+                userRole = ObjectSpace.CreateObject<PermissionPolicyRole>();
+                userRole.Name = "Users";
+                userRole.PermissionPolicy = SecurityPermissionPolicy.AllowAllByDefault;
+                userRole.AddTypePermission<PermissionPolicyRole>(SecurityOperations.FullAccess,
+        SecurityPermissionState.Deny);
+                userRole.AddTypePermission<PermissionPolicyUser>(SecurityOperations.FullAccess,
+        SecurityPermissionState.Deny);
+                userRole.AddObjectPermission<PermissionPolicyUser>(SecurityOperations.ReadOnlyAccess,
+        "[Oid] = CurrentUserId()", SecurityPermissionState.Allow);
+                userRole.AddMemberPermission<PermissionPolicyUser>(SecurityOperations.Write,
+        "ChangePasswordOnFirstLogon", null, SecurityPermissionState.Allow);
+                userRole.AddMemberPermission<PermissionPolicyUser>(SecurityOperations.Write,
+        "StoredPassword", null, SecurityPermissionState.Allow);
+                userRole.AddTypePermission<PermissionPolicyRole>(SecurityOperations.Read, SecurityPermissionState.Allow);
+                userRole.AddTypePermission<PermissionPolicyTypePermissionObject>("Write;Delete;Navigate;Create", SecurityPermissionState.Deny);
+                userRole.AddTypePermission<PermissionPolicyMemberPermissionsObject>("Write;Delete;Navigate;Create",
+        SecurityPermissionState.Deny);
+                userRole.AddTypePermission<PermissionPolicyObjectPermissionsObject>("Write;Delete;Navigate;Create",
+        SecurityPermissionState.Deny);
+            }
+
+            PermissionPolicyUser user1 = ObjectSpace.FindObject<PermissionPolicyUser>(
+        new BinaryOperator("UserName", "Alex"));
+            if (user1 == null)
+            {
+                user1 = ObjectSpace.CreateObject<PermissionPolicyUser>();
+                user1.UserName = "Alex";
+                // Set a password if the standard authentication type is used. 
+                user1.SetPassword("bringthemadness");
+            }
+            // If a user named 'John' does not exist in the database, create this user. 
+            PermissionPolicyUser user2 = ObjectSpace.FindObject<PermissionPolicyUser>(
+                 new BinaryOperator("UserName", "Bree"));
+            if (user2 == null)
+            {
+                user2 = ObjectSpace.CreateObject<PermissionPolicyUser>();
+                user2.UserName = "Bree";
+                // Set a password if the standard authentication type is used. 
+                user2.SetPassword("breeisfree");
+            }
+            user1.Roles.Add(adminRole);
+            user2.Roles.Add(userRole);
+
         }
         public override void UpdateDatabaseBeforeUpdateSchema() {
             base.UpdateDatabaseBeforeUpdateSchema();

@@ -16,7 +16,6 @@ namespace XAF2XPO.Web {
         private XAF2XPO.Module.Web.XAF2XPOAspNetModule module4;
         private DevExpress.ExpressApp.Security.SecurityModule securityModule1;
         private DevExpress.ExpressApp.Security.SecurityStrategyComplex securityStrategyComplex1;
-        private DevExpress.ExpressApp.Security.AuthenticationActiveDirectory authenticationActiveDirectory1;
         private DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule objectsModule;
         private DevExpress.ExpressApp.Validation.ValidationModule validationModule;
         private DevExpress.ExpressApp.ViewVariantsModule.ViewVariantsModule viewVariantsModule1;
@@ -31,6 +30,7 @@ namespace XAF2XPO.Web {
         private DevExpress.ExpressApp.ReportsV2.ReportsModuleV2 reportsModuleV21;
         private DevExpress.ExpressApp.Scheduler.Web.SchedulerAspNetModule schedulerAspNetModule1;
         private DevExpress.ExpressApp.Scheduler.SchedulerModuleBase schedulerModuleBase1;
+        private AuthenticationStandard authenticationStandard1;
         private DevExpress.ExpressApp.Validation.Web.ValidationAspNetModule validationAspNetModule;
 
         #region Default XAF configuration options (https://www.devexpress.com/kb=T501418)
@@ -98,7 +98,6 @@ namespace XAF2XPO.Web {
             this.module2 = new DevExpress.ExpressApp.Web.SystemModule.SystemAspNetModule();
             this.securityModule1 = new DevExpress.ExpressApp.Security.SecurityModule();
             this.securityStrategyComplex1 = new DevExpress.ExpressApp.Security.SecurityStrategyComplex();
-            this.authenticationActiveDirectory1 = new DevExpress.ExpressApp.Security.AuthenticationActiveDirectory();
             this.objectsModule = new DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule();
             this.validationModule = new DevExpress.ExpressApp.Validation.ValidationModule();
             this.validationAspNetModule = new DevExpress.ExpressApp.Validation.Web.ValidationAspNetModule();
@@ -116,19 +115,15 @@ namespace XAF2XPO.Web {
             this.reportsModuleV21 = new DevExpress.ExpressApp.ReportsV2.ReportsModuleV2();
             this.schedulerAspNetModule1 = new DevExpress.ExpressApp.Scheduler.Web.SchedulerAspNetModule();
             this.schedulerModuleBase1 = new DevExpress.ExpressApp.Scheduler.SchedulerModuleBase();
+            this.authenticationStandard1 = new DevExpress.ExpressApp.Security.AuthenticationStandard();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // securityStrategyComplex1
             // 
-            this.securityStrategyComplex1.Authentication = this.authenticationActiveDirectory1;
+            this.securityStrategyComplex1.Authentication = this.authenticationStandard1;
             this.securityStrategyComplex1.RoleType = typeof(DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole);
             this.securityStrategyComplex1.SupportNavigationPermissionsForTypes = false;
             this.securityStrategyComplex1.UserType = typeof(DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser);
-            // 
-            // authenticationActiveDirectory1
-            // 
-            this.authenticationActiveDirectory1.CreateUserAutomatically = true;
-            this.authenticationActiveDirectory1.LogonParametersType = null;
             // 
             // validationModule
             // 
@@ -148,6 +143,10 @@ namespace XAF2XPO.Web {
             // 
             this.reportsModuleV21.EnableInplaceReports = true;
             this.reportsModuleV21.ReportDataType = typeof(DevExpress.Persistent.BaseImpl.ReportDataV2);
+            // 
+            // authenticationStandard1
+            // 
+            this.authenticationStandard1.LogonParametersType = typeof(DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters);
             // 
             // XAF2XPOAspNetApplication
             // 

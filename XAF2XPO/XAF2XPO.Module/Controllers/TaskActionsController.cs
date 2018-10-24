@@ -16,7 +16,7 @@ using DevExpress.Persistent.Validation;
 using DevExpress.Persistent.Base.General;
 using XAF2XPO.Module.BusinessObjects;
 using System.Collections;
-
+using DevExpress.ExpressApp.Security;
 
 namespace XAF2XPO.Module.Controllers
 {
@@ -80,6 +80,33 @@ namespace XAF2XPO.Module.Controllers
                 objectSpace.CommitChanges();
                 View.ObjectSpace.Refresh();
             }
+        }
+
+        private void TaskActionsController_Activated(object sender, EventArgs e)
+        {
+            View.SelectionChanged += new EventHandler(View_SelectionChanged);
+            UpdateSetTaskActionState();
+        }
+
+        void View_SelectionChanged(object sender, EventArgs e)
+        {
+            UpdateSetTaskActionState();
+        }
+        private void UpdateSetTaskActionState()
+        {
+            bool isGranted = true;
+            foreach (object selectedObject in View.SelectedObjects)
+            {
+                bool isPriorityGranted = SecuritySystem.IsGranted(new PermissionRequest(ObjectSpace,
+                typeof(DemoTask), SecurityOperations.Write, selectedObject, "Priority"));
+                bool isStatusGranted = SecuritySystem.IsGranted(new PermissionRequest(ObjectSpace,
+                typeof(DemoTask), SecurityOperations.Write, selectedObject, "Status"));
+                if (!isPriorityGranted || !isStatusGranted)
+                {
+                    isGranted = false;
+                }
+            }
+            SetTaskAction.Enabled.SetItemValue("SecurityAllowance", isGranted);
         }
     }
 }

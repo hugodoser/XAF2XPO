@@ -29,7 +29,6 @@
             this.module4 = new XAF2XPO.Module.Win.XAF2XPOWindowsFormsModule();
             this.securityModule1 = new DevExpress.ExpressApp.Security.SecurityModule();
             this.securityStrategyComplex1 = new DevExpress.ExpressApp.Security.SecurityStrategyComplex();
-            this.authenticationActiveDirectory1 = new DevExpress.ExpressApp.Security.AuthenticationActiveDirectory();
             this.objectsModule = new DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule();
             this.validationModule = new DevExpress.ExpressApp.Validation.ValidationModule();
             this.validationWindowsFormsModule = new DevExpress.ExpressApp.Validation.Win.ValidationWindowsFormsModule();
@@ -45,19 +44,15 @@
             this.schedulerWindowsFormsModule1 = new DevExpress.ExpressApp.Scheduler.Win.SchedulerWindowsFormsModule();
             this.xaF2XPOModule2 = new XAF2XPO.Module.XAF2XPOModule();
             this.schedulerModuleBase1 = new DevExpress.ExpressApp.Scheduler.SchedulerModuleBase();
+            this.authenticationStandard1 = new DevExpress.ExpressApp.Security.AuthenticationStandard();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // securityStrategyComplex1
             // 
-            this.securityStrategyComplex1.Authentication = this.authenticationActiveDirectory1;
+            this.securityStrategyComplex1.Authentication = this.authenticationStandard1;
             this.securityStrategyComplex1.RoleType = typeof(DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole);
             this.securityStrategyComplex1.SupportNavigationPermissionsForTypes = false;
             this.securityStrategyComplex1.UserType = typeof(DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser);
-            // 
-            // authenticationActiveDirectory1
-            // 
-            this.authenticationActiveDirectory1.CreateUserAutomatically = true;
-            this.authenticationActiveDirectory1.LogonParametersType = null;
             // 
             // validationModule
             // 
@@ -77,6 +72,10 @@
             // 
             this.reportsModuleV21.EnableInplaceReports = true;
             this.reportsModuleV21.ReportDataType = typeof(DevExpress.Persistent.BaseImpl.ReportDataV2);
+            // 
+            // authenticationStandard1
+            // 
+            this.authenticationStandard1.LogonParametersType = typeof(DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters);
             // 
             // XAF2XPOWindowsFormsApplication
             // 
@@ -116,7 +115,6 @@
         private XAF2XPO.Module.Win.XAF2XPOWindowsFormsModule module4;
         private DevExpress.ExpressApp.Security.SecurityModule securityModule1;
         private DevExpress.ExpressApp.Security.SecurityStrategyComplex securityStrategyComplex1;
-        private DevExpress.ExpressApp.Security.AuthenticationActiveDirectory authenticationActiveDirectory1;
         private DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule objectsModule;
         private DevExpress.ExpressApp.Validation.ValidationModule validationModule;
         private DevExpress.ExpressApp.Validation.Win.ValidationWindowsFormsModule validationWindowsFormsModule;
@@ -132,5 +130,6 @@
         private DevExpress.ExpressApp.Scheduler.Win.SchedulerWindowsFormsModule schedulerWindowsFormsModule1;
         private Module.XAF2XPOModule xaF2XPOModule2;
         private DevExpress.ExpressApp.Scheduler.SchedulerModuleBase schedulerModuleBase1;
+        private DevExpress.ExpressApp.Security.AuthenticationStandard authenticationStandard1;
     }
 }
