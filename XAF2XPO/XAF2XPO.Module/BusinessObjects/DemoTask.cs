@@ -15,7 +15,7 @@ using DevExpress.Persistent.Validation;
 namespace XAF2XPO.Module.BusinessObjects
 {
     [DefaultClassOptions]
-    [Custom("Caption", "Task")]
+[ModelDefault("Caption", "Task")]
     public class DemoTask : Task
     {
         public DemoTask(Session session) : base(session) { }
@@ -44,12 +44,25 @@ namespace XAF2XPO.Module.BusinessObjects
                 return GetCollection<Contact>("Contacts"); //Many
             }
         }
+
+        [Action(ToolTip = "Postpone the task to the next day")]
+        public void Postpone()
+        {
+            if (DueDate == DateTime.MinValue)
+            {
+                DueDate = DateTime.Now;
+            }
+            DueDate = DueDate + TimeSpan.FromDays(1);
+        }
     }
 
     public enum Priority
     {
+        [ImageName("State_Priority_Low")]
         Low = 0,
+        [ImageName("State_Priority_Normal")]
         Normal = 1,
+        [ImageName("State_Priority_High")]
         High = 2
     }
 }

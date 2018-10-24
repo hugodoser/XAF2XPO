@@ -98,7 +98,7 @@
     <Compile Include="BusinessObjects\Contact.cs" />
     <Compile Include="BusinessObjects\Department.cs" />
     <Compile Include="BusinessObjects\Position.cs" />
-    <Compile Include="BusinessObjects\Task.cs" />
+    <Compile Include="BusinessObjects\DemoTask.cs" />
     <Compile Include="Controllers\ClearConteactTasksController.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -116,6 +116,12 @@
     </Compile>
     <Compile Include="Controllers\PopupNotesController.Designer.cs">
       <DependentUpon>PopupNotesController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TaskActionsController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\TaskActionsController.Designer.cs">
+      <DependentUpon>TaskActionsController.cs</DependentUpon>
     </Compile>
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
@@ -135,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controllers\PopupNotesController.resx">
       <DependentUpon>PopupNotesController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\TaskActionsController.resx">
+      <DependentUpon>TaskActionsController.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
     <EmbeddedResource Include="Module.resx">

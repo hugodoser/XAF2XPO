@@ -141,6 +141,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\WinAlternatingRowsController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\WinAlternatingRowsController.Designer.cs">
+      <DependentUpon>WinAlternatingRowsController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\WinNullTextEditorController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\WinNullTextEditorController.Designer.cs">
+      <DependentUpon>WinNullTextEditorController.cs</DependentUpon>
+    </Compile>
     <Compile Include="WinModule.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -150,7 +162,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Controllers\WinAlternatingRowsController.resx">
+      <DependentUpon>WinAlternatingRowsController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\WinNullTextEditorController.resx">
+      <DependentUpon>WinNullTextEditorController.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="WinModule.resx">
       <DependentUpon>WinModule.cs</DependentUpon>
       <SubType>Designer</SubType>
