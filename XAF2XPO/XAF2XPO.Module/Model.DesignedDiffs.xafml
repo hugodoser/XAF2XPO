@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="XAF2XPO">
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="17.2.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Contact_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="54.173228346456696">
+            <LayoutGroup Id="Person" Index="0" RelativeSize="35.465116279069768">
+              <LayoutGroup Id="Person_col1" RelativeSize="50.133333333333333">
+                <LayoutItem Id="FirstName" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="LastName" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="MiddleName" RelativeSize="36.363636363636367" />
+              </LayoutGroup>
+              <LayoutGroup Id="Person_col2" RelativeSize="49.866666666666667">
+                <LayoutItem Id="Birthday" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="FullName" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="Email" RelativeSize="36.363636363636367" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Contact" Index="1" RelativeSize="33.139534883720927">
+              <LayoutGroup Id="Contact_col1" RelativeSize="50.133333333333333">
+                <LayoutItem Id="WebPageAddress" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="NickName" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="SpouseName" RelativeSize="36.363636363636367" />
+              </LayoutGroup>
+              <LayoutGroup Id="Contact_col2" RelativeSize="49.866666666666667">
+                <LayoutItem Id="TitleOfCourtesy" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="Anniversary" RelativeSize="63.636363636363633" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Party" RelativeSize="31.3953488372093">
+              <LayoutItem Id="Photo" RelativeSize="27.777777777777779" />
+              <LayoutItem Id="Address1" RelativeSize="22.222222222222221" />
+              <LayoutItem Id="Address2" RelativeSize="22.222222222222221" />
+              <LayoutItem Id="DisplayName" RelativeSize="27.777777777777779" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="45.826771653543304" Caption="Notes">
+            <LayoutGroup Id="PhoneNumbers_Group" ShowCaption="True" Caption="Phone Numbers" Index="0" RelativeSize="44.673539518900341" IsNewNode="True">
+              <LayoutItem Id="PhoneNumbers" ViewItem="PhoneNumbers" Index="0" RelativeSize="100" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutItem Id="Notes" RelativeSize="55.326460481099659" Index="1" />
+          </LayoutGroup>
+          <LayoutGroup Id="PhoneNumbers_Group" Direction="Vertical" RelativeSize="23.1496062992126" Removed="True">
+            <LayoutItem Id="PhoneNumbers" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
