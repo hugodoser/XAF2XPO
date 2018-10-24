@@ -592,3 +592,6 @@ C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XP
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module.Web\obj\Debug\XAF2XPO.Module.Web.csproj.GenerateResource.Cache
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module.Web\obj\Debug\XAF2XPO.Module.Web.dll
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module.Web\obj\Debug\XAF2XPO.Module.Web.pdb
+C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module.Web\obj\Debug\XAF2XPO.Module.Web.Controllers.WebAlternatingRowsController.resources
+C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module.Web\obj\Debug\XAF2XPO.Module.Web.Controllers.WebNullTextEditorController.resources
+C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module.Web\obj\Debug\XAF2XPO.Module.Web.dll.licenses

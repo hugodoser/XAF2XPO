@@ -1,6 +1,6 @@
 ﻿namespace XAF2XPO.Module.Controllers
 {
-    partial class ClearConteactTasksController
+    partial class ClearContactTasksController
     {
         /// <summary>
         /// Required designer variable.

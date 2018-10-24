@@ -18,9 +18,9 @@ using XAF2XPO.Module.BusinessObjects;
 namespace XAF2XPO.Module.Controllers
 {
     // For more typical usage scenarios, be sure to check out https://documentation.devexpress.com/eXpressAppFramework/clsDevExpressExpressAppViewControllertopic.aspx.
-    public partial class ClearConteactTasksController : ViewController
+    public partial class ClearContactTasksController : ViewController
     {
-        public ClearConteactTasksController()
+        public ClearContactTasksController()
         {
             InitializeComponent();
             // Target required Views (via the TargetXXX properties) and create their Actions.
@@ -30,17 +30,14 @@ namespace XAF2XPO.Module.Controllers
         {
             // Enables the ClearTasks Action if the current Detail View's ViewEditMode property 
             // is set to ViewEditMode.Edit. 
-            ClearTasksAction.Enabled.SetItemValue("EditMode",
-                ((DetailView)View).ViewEditMode == ViewEditMode.Edit);
-            ((DetailView)View).ViewEditModeChanged +=
-                new EventHandler<EventArgs>(ClearContactTasksController_ViewEditModeChanged);
+            ClearTasksAction.Enabled.SetItemValue("EditMode", ((DetailView)View).ViewEditMode == ViewEditMode.Edit);
+            ((DetailView)View).ViewEditModeChanged += new EventHandler<EventArgs>(ClearContactTasksController_ViewEditModeChanged);
         }
 
         // Manages the ClearTasks Action enabled state. 
         void ClearContactTasksController_ViewEditModeChanged(object sender, EventArgs e)
         {
-            ClearTasksAction.Enabled.SetItemValue("EditMode",
-                ((DetailView)View).ViewEditMode == ViewEditMode.Edit);
+            ClearTasksAction.Enabled.SetItemValue("EditMode", ((DetailView)View).ViewEditMode == ViewEditMode.Edit);
         }
 
         private void ClearTasksAction_Execute(object sender, SimpleActionExecuteEventArgs e)

@@ -62,13 +62,24 @@ namespace XAF2XPO.Module.BusinessObjects
         }
 
         private Department department;
-        [Association("Department-Contacts")] // One part
+        [Association("Department-Contacts", typeof(Department)), ImmediatePostData] //One
         public Department Department
         {
             get { return department; }
-            set { SetPropertyValue("Department", ref department, value); }
+            set
+            {
+                SetPropertyValue("Department", ref department, value);
+                if (!IsLoading)
+                {
+                    Position = null;
+                    if (Manager != null && Manager.Department != value)
+                    {
+                        Manager = null;
+                    }
+                }
+            }
         }
-   
+
         private Position position;
         public Position Position
         {

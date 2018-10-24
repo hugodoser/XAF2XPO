@@ -17,7 +17,7 @@ namespace XAF2XPO.Module.BusinessObjects
     [DefaultClassOptions]
     [System.ComponentModel.DefaultProperty("Title")]
     public class Department : BaseObject
-    {
+    {        
         public Department(Session session) : base(session) { }
         private string title;
         public string Title
@@ -25,13 +25,15 @@ namespace XAF2XPO.Module.BusinessObjects
             get { return title; }
             set { SetPropertyValue("Title", ref title, value); }
         }
+
         private string office;
         public string Office
         {
             get { return office; }
             set { SetPropertyValue("Office", ref office, value); }
         }
-       [Association("Department-Contacts")]
+
+        [Association("Department-Contacts")]
         public XPCollection<Contact> Contacts
         {
             get
@@ -39,5 +41,16 @@ namespace XAF2XPO.Module.BusinessObjects
                 return GetCollection<Contact>("Contacts"); //Many
             }
         }
+
+        [Association("Departments-Positions")]
+        public XPCollection<Position> Positions
+        {
+            get
+            {
+                return GetCollection<Position>("Positions"); //Many
+            }
+        }
+        
+
     }
 }

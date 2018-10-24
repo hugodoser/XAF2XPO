@@ -1,9 +1,41 @@
-﻿<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="ClearTasksAction" ConfirmationMessage="Are you sure you want to clear the {0}'s Tasks list?" Shortcut="Control + Shift + C" ToolTip="Clear the current Contact's tasks" />
+    </Actions>
+    <ActionToContainerMapping>
+      <ActionContainer Id="RecordEdit">
+        <ActionLink ActionId="ClearTasksAction" IsNewNode="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
   <Options CollectionsEditMode="Edit" />
+  <SchemaModules>
+    <SchemaModule Name="SystemAspNetModule" Version="17.2.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="17.2.7.0" IsNewNode="True" />
+  </SchemaModules>
   <ViewItems>
     <PropertyEditor Name="PropertyEditors">
       <RegisteredPropertyEditor PropertyType="System.Drawing.Color" EditorType="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxColorPickerPropertyEditor" />
     </PropertyEditor>
   </ViewItems>
+  <Views>
+    <DetailView Id="Department_DetailRowView" ClassName="XAF2XPO.Module.BusinessObjects.Department" Caption="Department_DetailRowView" IsNewNode="True">
+      <Items IsNewNode="True">
+        <PropertyEditor Id="Contacts" PropertyName="Contacts" View="Department_Contacts_ListView" IsNewNode="True" />
+        <PropertyEditor Id="Office" PropertyName="Office" IsNewNode="True" />
+        <PropertyEditor Id="Oid" PropertyName="Oid" IsNewNode="True" />
+        <PropertyEditor Id="Title" PropertyName="Title" IsNewNode="True" />
+      </Items>
+      <Layout IsNewNode="True">
+        <LayoutGroup Id="Main" Index="0" ShowCaption="False" IsNewNode="True">
+          <LayoutGroup Id="Contacts_Group" Index="1" Direction="Horizontal" ShowCaption="True" IsNewNode="True">
+            <LayoutItem Id="Contacts" ViewItem="Contacts" ShowCaption="" Index="0" IsNewNode="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Department_ListView" DetailRowMode="DetailView" DetailRowView="Department_DetailRowView" />
+  </Views>
 </Application>

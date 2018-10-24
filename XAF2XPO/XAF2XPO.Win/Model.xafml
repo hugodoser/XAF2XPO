@@ -1,3 +1,13 @@
-﻿<Application Logo="ExpressAppLogo">
-	<Options UIType="TabbedMDI" FormStyle="Ribbon" />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="ExpressAppLogo">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" ChildItemsDisplayStyle="List" />
+    </Items>
+  </NavigationItems>
+  <Options UIType="SingleWindowSDI" FormStyle="Ribbon" />
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="17.2.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="17.2.7.0" IsNewNode="True" />
+  </SchemaModules>
 </Application>

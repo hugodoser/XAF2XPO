@@ -97,13 +97,20 @@
   <ItemGroup>
     <Compile Include="BusinessObjects\Contact.cs" />
     <Compile Include="BusinessObjects\Department.cs" />
+    <Compile Include="BusinessObjects\Payment.cs" />
     <Compile Include="BusinessObjects\Position.cs" />
     <Compile Include="BusinessObjects\DemoTask.cs" />
-    <Compile Include="Controllers\ClearConteactTasksController.cs">
+    <Compile Include="Controllers\ClearContactTasksController.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Controllers\ClearConteactTasksController.Designer.cs">
-      <DependentUpon>ClearConteactTasksController.cs</DependentUpon>
+    <Compile Include="Controllers\ClearContactTasksController.Designer.cs">
+      <DependentUpon>ClearContactTasksController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\FilterListViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\FilterListViewController.Designer.cs">
+      <DependentUpon>FilterListViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="Controllers\FindBySubjectController.cs">
       <SubType>Component</SubType>
@@ -133,8 +140,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Controllers\ClearConteactTasksController.resx">
-      <DependentUpon>ClearConteactTasksController.cs</DependentUpon>
+    <EmbeddedResource Include="Controllers\ClearContactTasksController.resx">
+      <DependentUpon>ClearContactTasksController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\FilterListViewController.resx">
+      <DependentUpon>FilterListViewController.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controllers\FindBySubjectController.resx">
       <DependentUpon>FindBySubjectController.cs</DependentUpon>
@@ -173,6 +183,12 @@
     <None Include="FunctionalTests\config.xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="UnusableNodes.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Images\Employee.png" />
+    <EmbeddedResource Include="Images\Employee_32x32.png" />
     <Content Include="Welcome.html" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

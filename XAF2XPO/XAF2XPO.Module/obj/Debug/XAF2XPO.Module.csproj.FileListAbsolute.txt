@@ -507,7 +507,6 @@ C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XP
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\bin\Debug\es\DevExpress.Diagram.v17.2.Core.resources.dll
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\bin\Debug\ja\DevExpress.Diagram.v17.2.Core.resources.dll
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\bin\Debug\ru\DevExpress.Diagram.v17.2.Core.resources.dll
-C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\obj\Debug\XAF2XPO.Module.Controllers.ClearConteactTasksController.resources
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\obj\Debug\XAF2XPO.Module.Controllers.FindBySubjectController.resources
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\obj\Debug\XAF2XPO.Module.Controllers.PopupNotesController.resources
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\obj\Debug\XAF2XPO.Module.XAF2XPOModule.resources
@@ -516,3 +515,5 @@ C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XP
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\obj\Debug\XAF2XPO.Module.dll
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\obj\Debug\XAF2XPO.Module.pdb
 C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\obj\Debug\XAF2XPO.Module.Controllers.TaskActionsController.resources
+C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\obj\Debug\XAF2XPO.Module.Controllers.ClearContactTasksController.resources
+C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Module\obj\Debug\XAF2XPO.Module.Controllers.FilterListViewController.resources
