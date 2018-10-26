@@ -28,7 +28,11 @@
         <Member Name="Subject" RowCount="2" Size="200" />
       </OwnMembers>
     </Class>
-    <Class Name="XAF2XPO.Module.BusinessObjects.Contact" ObjectCaptionFormat="{0:FullName} from the {0:Department}" ImageName="Employee" />
+    <Class Name="XAF2XPO.Module.BusinessObjects.Contact" ObjectCaptionFormat="{0:FullName} from the {0:Department}" ImageName="Employee">
+      <OwnMembers>
+        <Member Name="Age" IsCustom="True" IsCalculated="True" Expression="DateDiffDay([Birthday], CurrentDate()) / 365" Type="System.Int16" Size="2" Caption="Age" IsNewNode="True" />
+      </OwnMembers>
+    </Class>
     <Class Name="XAF2XPO.Module.BusinessObjects.Department" ImageName="BO_Department" />
     <Class Name="XAF2XPO.Module.BusinessObjects.Payment">
       <OwnMembers>
@@ -65,55 +69,62 @@
   <Views>
     <DetailView Id="Contact_DetailView">
       <Items>
+        <PropertyEditor Id="Age" PropertyName="Age" IsNewNode="True" />
         <PropertyEditor Id="Department.Office" PropertyName="Department.Office" IsNewNode="True" />
       </Items>
       <Layout>
         <LayoutGroup Id="Main" RelativeSize="100">
-          <LayoutGroup Id="SimpleEditors" RelativeSize="54.117647058823529">
-            <LayoutGroup Id="Person" Index="0" RelativeSize="39.673913043478258">
-              <LayoutGroup Id="Person_col1" RelativeSize="50">
-                <LayoutItem Id="FirstName" RelativeSize="28.571428571428573" />
-                <LayoutItem Id="LastName" RelativeSize="21.428571428571427" />
-                <LayoutItem Id="MiddleName" RelativeSize="50" />
+          <LayoutGroup Id="SimpleEditors" RelativeSize="54.670329670329672">
+            <LayoutGroup Id="Person" Index="0" RelativeSize="38.190954773869343">
+              <LayoutGroup Id="Person_col1" RelativeSize="51.894563426688634">
+                <LayoutItem Id="FirstName" RelativeSize="27.118644067796609" />
+                <LayoutItem Id="LastName" RelativeSize="20.338983050847457" />
+                <LayoutItem Id="MiddleName" ViewItem="MiddleName" Index="2" RelativeSize="20.338983050847457" IsNewNode="True" Removed="True" />
+                <LayoutGroup Id="Auto137dea89-214f-45ce-8578-b7606f88fc2e" ShowCaption="False" Caption="Auto137dea89-214f-45ce-8578-b7606f88fc2e(8)" Direction="Vertical" Index="3" RelativeSize="32.203389830508478" IsNewNode="True">
+                  <LayoutItem Id="Age" ViewItem="Age" Index="0" RelativeSize="100" IsNewNode="True" />
+                </LayoutGroup>
               </LayoutGroup>
-              <LayoutGroup Id="Person_col2" RelativeSize="50">
-                <LayoutItem Id="DisplayName" ViewItem="DisplayName" Index="0" RelativeSize="28.571428571428573" IsNewNode="True" />
-                <LayoutItem Id="Birthday" RelativeSize="21.428571428571427" Index="1" />
-                <LayoutItem Id="FullName" RelativeSize="21.428571428571427" Index="2" />
-                <LayoutItem Id="Email" RelativeSize="28.571428571428573" Index="3" />
-              </LayoutGroup>
-            </LayoutGroup>
-            <LayoutGroup Id="Contact" Index="1" RelativeSize="37.5">
-              <LayoutGroup Id="Contact_col1" RelativeSize="50">
-                <LayoutItem Id="WebPageAddress" RelativeSize="28.571428571428573" />
-                <LayoutItem Id="NickName" RelativeSize="21.428571428571427" />
-                <LayoutItem Id="SpouseName" RelativeSize="21.428571428571427" />
-                <LayoutItem Id="TitleOfCourtesy" RelativeSize="28.571428571428573" />
-              </LayoutGroup>
-              <LayoutGroup Id="Contact_col2" RelativeSize="50">
-                <LayoutItem Id="Anniversary" RelativeSize="28.571428571428573" />
-                <LayoutItem Id="Department" RelativeSize="21.428571428571427" />
-                <LayoutItem Id="Position" RelativeSize="21.428571428571427" />
-                <LayoutItem Id="Manager" RelativeSize="28.571428571428573" />
-                <LayoutItem Id="Department.Office" ViewItem="Department.Office" IsNewNode="True" />
+              <LayoutGroup Id="Person_col2" RelativeSize="48.105436573311366">
+                <LayoutItem Id="DisplayName" ViewItem="DisplayName" Index="0" RelativeSize="27.118644067796609" IsNewNode="True" />
+                <LayoutItem Id="Birthday" RelativeSize="20.338983050847457" Index="1" />
+                <LayoutItem Id="FullName" RelativeSize="20.338983050847457" Index="2" />
+                <LayoutItem Id="Email" RelativeSize="32.203389830508478" Index="3" />
               </LayoutGroup>
             </LayoutGroup>
-            <LayoutGroup Id="Party" RelativeSize="22.826086956521738">
+            <LayoutGroup Id="Contact" Index="1" RelativeSize="40.7035175879397">
+              <LayoutGroup Id="Contact_col1" RelativeSize="49.752883031301479">
+                <LayoutItem Id="WebPageAddress" RelativeSize="23.529411764705884" />
+                <LayoutItem Id="NickName" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="SpouseName" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="TitleOfCourtesy" RelativeSize="41.1764705882353" />
+              </LayoutGroup>
+              <LayoutGroup Id="Contact_col2" RelativeSize="50.247116968698521">
+                <LayoutItem Id="Anniversary" RelativeSize="23.529411764705884" />
+                <LayoutItem Id="Department" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="Position" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="Manager" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="Department.Office" ViewItem="Department.Office" Index="4" RelativeSize="23.529411764705884" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Party" RelativeSize="21.105527638190956" Index="2">
               <LayoutItem Id="Photo" RelativeSize="35.714285714285715" />
               <LayoutItem Id="Address1" RelativeSize="28.571428571428573" />
               <LayoutItem Id="Address2" RelativeSize="35.714285714285715" />
               <LayoutItem Id="DisplayName" RelativeSize="27.777777777777779" Removed="True" />
             </LayoutGroup>
           </LayoutGroup>
-          <LayoutGroup Id="SizeableEditors" RelativeSize="27.941176470588236" Caption="Notes">
-            <LayoutGroup Id="PhoneNumbers_Group" ShowCaption="True" Caption="Phone Numbers" Index="0" RelativeSize="68.421052631578945" IsNewNode="True">
+          <LayoutGroup Id="SizeableEditors" RelativeSize="27.60989010989011" Caption="Notes">
+            <LayoutGroup Id="PhoneNumbers_Group" ShowCaption="True" Caption="Phone Numbers" Index="0" RelativeSize="68.656716417910445" IsNewNode="True">
               <LayoutItem Id="PhoneNumbers" ViewItem="PhoneNumbers" Index="0" RelativeSize="100" IsNewNode="True" />
             </LayoutGroup>
-            <LayoutItem Id="Notes" RelativeSize="31.578947368421051" Index="1" />
+            <LayoutItem Id="Notes" RelativeSize="31.343283582089551" Index="1" />
           </LayoutGroup>
-          <TabbedGroup Id="Tabs" RelativeSize="17.941176470588236">
+          <TabbedGroup Id="Tabs" RelativeSize="17.719780219780219">
             <LayoutGroup Id="Tasks" RelativeSize="100">
               <LayoutItem Id="Tasks" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="ChangeHistory" RelativeSize="100">
+              <LayoutItem Id="ChangeHistory" RelativeSize="100" />
             </LayoutGroup>
             <LayoutGroup Id="PhoneNumbers" RelativeSize="100">
               <LayoutItem Id="PhoneNumbers" RelativeSize="100" />

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="XAF2XPO.Module.BusinessObjects.Contact">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Age" Caption="Age" DisplayFormat="" EditMask="" ImmediatePostData="False" DataSourcePropertyIsNullMode="SelectAll" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Views Id="Views">
+    <DetailView Id="Contact_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Contact">
+              <LayoutGroup Id="Contact_col2">
+                <LayoutItem Id="Age" RelativeSize="15" />
+                <LayoutItem Id="CountAge" RelativeSize="15" />
+              </LayoutGroup>
+              <LayoutGroup Id="Contact_col1">
+                <LayoutItem Id="Anniversary" RelativeSize="35" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

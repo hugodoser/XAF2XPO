@@ -117,7 +117,7 @@ namespace XAF2XPO.Module.BusinessObjects
                 return changeHistory;
             }
         }
-    }
+    }    
 
     public enum TitleOfCourtesy {
         Dr,

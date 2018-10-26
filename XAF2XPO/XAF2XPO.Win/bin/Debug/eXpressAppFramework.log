@@ -16058,3 +16058,1303 @@ Loaded assemblies
 
 24.10.18 15:51:50.268	Application stopping
 =====================
+26.10.18 13:36:30.404	================================================================================
+26.10.18 13:36:30.420	Trace Log for XAF2XPO.Win.vshost.exe is started
+26.10.18 13:36:30.421	================================================================================
+26.10.18 13:36:30.424	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 17.2.7.0
+	eXpressApp File Version: 17.2.7.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+26.10.18 13:36:31.067	Initialize application
+=======================
+26.10.18 13:36:31.069		Command line arguments: 
+		C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.vshost.exe
+26.10.18 13:36:31.804	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.10.18 13:36:32.097	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   в DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   в DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   в System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   в DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   в XAF2XPO.Win.XAF2XPOWindowsFormsApplication.InitializeComponent() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\WinApplication.Designer.cs:строка 91
+   в XAF2XPO.Win.XAF2XPOWindowsFormsApplication..ctor() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\WinApplication.cs:строка 26
+   в XAF2XPO.Win.Program.Main() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\Program.cs:строка 28
+   в System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   в System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   в Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+26.10.18 13:36:32.751	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.10.18 13:36:32.753	--------------------------------------------------------------------------------
+							
+
+26.10.18 13:36:32.761	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Data.v17.2.dll
+	DevExpress.ExpressApp.AuditTrail.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v17.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v17.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v17.2.dll
+	DevExpress.ExpressApp.Objects.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v17.2.dll
+	DevExpress.ExpressApp.PivotChart.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v17.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v17.2.dll
+	DevExpress.ExpressApp.ReportsV2.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v17.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v17.2.dll
+	DevExpress.ExpressApp.Scheduler.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v17.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v17.2.dll
+	DevExpress.ExpressApp.Security.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v17.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v17.2.dll
+	DevExpress.ExpressApp.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.v17.2.dll
+	DevExpress.ExpressApp.v17.2.resources, Version=17.2.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v17.2.resources\v4.0_17.2.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v17.2.resources.dll
+	DevExpress.ExpressApp.Validation.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v17.2.dll
+	DevExpress.ExpressApp.Validation.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v17.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v17.2.dll
+	DevExpress.ExpressApp.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v17.2.dll
+	DevExpress.ExpressApp.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v17.2.dll
+	DevExpress.Office.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Office.v17.2.Core.dll
+	DevExpress.Persistent.Base.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.Base.v17.2.dll
+	DevExpress.Persistent.BaseImpl.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v17.2.dll
+	DevExpress.Printing.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Printing.v17.2.Core.dll
+	DevExpress.RichEdit.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.RichEdit.v17.2.Core.dll
+	DevExpress.Utils.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Utils.v17.2.dll
+	DevExpress.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Xpo.v17.2.dll
+	DevExpress.XtraBars.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraBars.v17.2.dll
+	DevExpress.XtraEditors.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraEditors.v17.2.dll
+	DevExpress.XtraPrinting.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPrinting.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraPrinting.v17.2.dll
+	DevExpress.XtraReports.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v17.2.dll
+	DevExpress.XtraReports.v17.2.Extensions, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v17.2.Extensions\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v17.2.Extensions.dll
+	DevExpress.XtraRichEdit.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v17.2.dll
+	DevExpress.XtraScheduler.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraScheduler.v17.2.Core.dll
+	DevExpress.XtraTreeList.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraTreeList.v17.2.dll
+	DevExpress.XtraVerticalGrid.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v17.2.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll
+	vshost32, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.vshost.exe
+	XAF2XPO.Module, Version=1.0.6873.24447, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Module.dll
+	XAF2XPO.Module.Win, Version=1.0.6873.24492, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Module.Win.dll
+	XAF2XPO.Win, Version=1.0.6873.24492, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.exe
+26.10.18 13:36:33.363	SetupModules
+26.10.18 13:36:33.615	Customize TypesInfo
+26.10.18 13:36:49.006		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+26.10.18 13:36:49.010		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+26.10.18 13:36:49.015	Logon With Parameters
+26.10.18 13:36:49.020		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 1414aa26-e178-44ed-87a2-83169d06c409
+								Category: Unspecified
+
+26.10.18 13:36:50.327	Generate default Model for Action containers
+26.10.18 13:37:21.411	'Password' property editor: new value is '*******'
+26.10.18 13:37:21.417	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:37:21.418		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Вход в систему
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+26.10.18 13:37:21.422	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:37:21.423		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 1414aa26-e178-44ed-87a2-83169d06c409
+								Category: Unspecified
+
+26.10.18 13:37:21.453	--------------------------------------------------------------------------------
+							Start logon process
+
+26.10.18 13:37:21.456	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.10.18 13:37:21.460		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XAF2XPO;XpoDataStorePool=True;
+26.10.18 13:37:21.461		ConnectionString: 
+26.10.18 13:37:29.634	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.10.18 13:37:30.650		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XAF2XPO;XpoDataStorePool=True;
+26.10.18 13:37:32.830	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:37:32.845	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:37:32.855	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:37:32.868	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:37:32.875	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:37:32.881	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:37:33.907	--------------------------------------------------------------------------------
+							Logon successful
+
+26.10.18 13:37:34.058	--------------------------------------------------------------------------------
+							Logon completed
+
+26.10.18 13:37:34.209	Action '1414aa26-e178-44ed-87a2-83169d06c409' done
+26.10.18 13:37:34.214	Window closing: Вход в систему
+26.10.18 13:37:34.281	Action 'Logon' done
+26.10.18 13:37:34.282	Window closed: Вход в систему
+26.10.18 13:37:34.562		startUpActions: 1
+26.10.18 13:37:34.594	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.10.18 13:37:34.766	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:37:34.768		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ChooseSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ChooseSkinController
+
+26.10.18 13:37:34.769		SelectedItem: Office 2016 Colorful
+26.10.18 13:37:34.771	Action 'ChooseSkin' done
+26.10.18 13:37:36.529	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:37:36.531		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.10.18 13:37:36.531		SelectedItem: Contact[Варианты представления[All columns,Few columns]]
+26.10.18 13:37:38.540	Action 'ShowNavigationItem' done
+26.10.18 13:37:38.636	Application startup done
+=========================
+26.10.18 13:37:38.637	Application running
+====================
+26.10.18 13:37:52.578	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:37:52.581		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Mary Tellitson
+
+26.10.18 13:37:53.943	Action 'ListViewShowObject' done
+26.10.18 13:38:02.740	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:38:02.741		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Mary Tellitson
+
+26.10.18 13:38:02.741		SelectedItem: Task
+26.10.18 13:38:03.070	Action 'ShowNavigationItem' done
+26.10.18 13:38:19.378	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:38:19.380		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Task
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Написать документацию
+
+26.10.18 13:38:19.383		SelectedItem: Department
+26.10.18 13:38:19.739	Action 'ShowNavigationItem' done
+26.10.18 13:38:24.796	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:38:24.797		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Department
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Development Dpt.
+
+26.10.18 13:38:24.797		SelectedItem: Событие планировщика
+26.10.18 13:38:27.283	Action 'ShowNavigationItem' done
+26.10.18 13:38:41.659	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:38:41.659		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Событие планировщика
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+26.10.18 13:38:41.660		SelectedItem: Contact[Варианты представления[All columns,Few columns]]
+26.10.18 13:38:41.894	Action 'ShowNavigationItem' done
+26.10.18 13:38:43.838	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:38:43.840		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Main Dev
+
+26.10.18 13:38:44.396	Action 'ListViewShowObject' done
+26.10.18 13:38:51.525	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:38:51.526		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Main Dev
+
+26.10.18 13:38:51.526		SelectedItem: Position
+26.10.18 13:38:51.728	Action 'ShowNavigationItem' done
+26.10.18 13:38:55.992	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:38:55.992		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Position
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Developer
+
+26.10.18 13:38:55.993		SelectedItem: Contact[Варианты представления[All columns,Few columns]]
+26.10.18 13:38:56.164	Action 'ShowNavigationItem' done
+26.10.18 13:38:57.457	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:38:57.458		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Mary Tellitson
+
+26.10.18 13:38:58.084	Action 'ListViewShowObject' done
+26.10.18 13:39:18.285	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:39:18.287		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: NavigateBack
+								Category: ViewsHistoryNavigation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinViewNavigationController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Mary Tellitson
+
+26.10.18 13:39:18.288		SelectedItem: Contact
+26.10.18 13:39:18.521	Action 'NavigateBack' done
+26.10.18 13:39:20.652	Window closing: Contact - XAF2XPO
+26.10.18 13:39:20.678	Window closed: Contact - XAF2XPO
+26.10.18 13:39:20.794	Save model changes
+===================
+26.10.18 13:39:21.240	Save model changes
+===================
+26.10.18 13:39:21.309	--------------------------------------------------------------------------------
+							Logoff completed
+
+26.10.18 13:39:21.310	Application stopping
+=====================
+26.10.18 13:54:52.720	================================================================================
+26.10.18 13:54:52.721	Trace Log for XAF2XPO.Win.vshost.exe is started
+26.10.18 13:54:52.722	================================================================================
+26.10.18 13:54:52.724	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 17.2.7.0
+	eXpressApp File Version: 17.2.7.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+26.10.18 13:54:52.938	Initialize application
+=======================
+26.10.18 13:54:52.940		Command line arguments: 
+		C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.vshost.exe
+26.10.18 13:54:53.121	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.10.18 13:54:53.126	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   в DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   в DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   в System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   в DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   в XAF2XPO.Win.XAF2XPOWindowsFormsApplication.InitializeComponent() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\WinApplication.Designer.cs:строка 91
+   в XAF2XPO.Win.XAF2XPOWindowsFormsApplication..ctor() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\WinApplication.cs:строка 26
+   в XAF2XPO.Win.Program.Main() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\Program.cs:строка 28
+   в System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   в System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   в Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+26.10.18 13:54:53.526	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.10.18 13:54:53.529	--------------------------------------------------------------------------------
+							
+
+26.10.18 13:54:53.537	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Data.v17.2.dll
+	DevExpress.ExpressApp.AuditTrail.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v17.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v17.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v17.2.dll
+	DevExpress.ExpressApp.Objects.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v17.2.dll
+	DevExpress.ExpressApp.PivotChart.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v17.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v17.2.dll
+	DevExpress.ExpressApp.ReportsV2.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v17.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v17.2.dll
+	DevExpress.ExpressApp.Scheduler.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v17.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v17.2.dll
+	DevExpress.ExpressApp.Security.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v17.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v17.2.dll
+	DevExpress.ExpressApp.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.v17.2.dll
+	DevExpress.ExpressApp.v17.2.resources, Version=17.2.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v17.2.resources\v4.0_17.2.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v17.2.resources.dll
+	DevExpress.ExpressApp.Validation.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v17.2.dll
+	DevExpress.ExpressApp.Validation.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v17.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v17.2.dll
+	DevExpress.ExpressApp.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v17.2.dll
+	DevExpress.ExpressApp.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v17.2.dll
+	DevExpress.Office.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Office.v17.2.Core.dll
+	DevExpress.Persistent.Base.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.Base.v17.2.dll
+	DevExpress.Persistent.BaseImpl.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v17.2.dll
+	DevExpress.Printing.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Printing.v17.2.Core.dll
+	DevExpress.RichEdit.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.RichEdit.v17.2.Core.dll
+	DevExpress.Utils.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Utils.v17.2.dll
+	DevExpress.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Xpo.v17.2.dll
+	DevExpress.XtraBars.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraBars.v17.2.dll
+	DevExpress.XtraEditors.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraEditors.v17.2.dll
+	DevExpress.XtraPrinting.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPrinting.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraPrinting.v17.2.dll
+	DevExpress.XtraReports.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v17.2.dll
+	DevExpress.XtraReports.v17.2.Extensions, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v17.2.Extensions\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v17.2.Extensions.dll
+	DevExpress.XtraRichEdit.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v17.2.dll
+	DevExpress.XtraScheduler.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraScheduler.v17.2.Core.dll
+	DevExpress.XtraTreeList.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraTreeList.v17.2.dll
+	DevExpress.XtraVerticalGrid.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v17.2.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll
+	vshost32, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.vshost.exe
+	XAF2XPO.Module, Version=1.0.6873.25045, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Module.dll
+	XAF2XPO.Module.Win, Version=1.0.6873.25045, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Module.Win.dll
+	XAF2XPO.Win, Version=1.0.6873.25045, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.exe
+26.10.18 13:54:53.837	SetupModules
+26.10.18 13:54:54.038	Customize TypesInfo
+26.10.18 13:54:56.535		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+26.10.18 13:54:56.538		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+26.10.18 13:54:56.543	Logon With Parameters
+26.10.18 13:54:56.548		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 4e26fd2c-eedc-4758-8351-03e2214f94d1
+								Category: Unspecified
+
+26.10.18 13:54:57.547	Generate default Model for Action containers
+26.10.18 13:55:05.433	'Password' property editor: new value is '*******'
+26.10.18 13:55:05.438	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:55:05.439		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Вход в систему
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+26.10.18 13:55:05.443	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:55:05.443		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 4e26fd2c-eedc-4758-8351-03e2214f94d1
+								Category: Unspecified
+
+26.10.18 13:55:05.472	--------------------------------------------------------------------------------
+							Start logon process
+
+26.10.18 13:55:05.474	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.10.18 13:55:05.478		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XAF2XPO;XpoDataStorePool=True;
+26.10.18 13:55:05.479		ConnectionString: 
+26.10.18 13:55:07.949	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.10.18 13:55:09.164		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XAF2XPO;XpoDataStorePool=True;
+26.10.18 13:55:11.582	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:55:11.596	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:55:11.603	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:55:11.610	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:55:11.617	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:55:11.625	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 13:55:12.385	--------------------------------------------------------------------------------
+							Logon successful
+
+26.10.18 13:55:12.745	--------------------------------------------------------------------------------
+							Logon completed
+
+26.10.18 13:55:12.811	Action '4e26fd2c-eedc-4758-8351-03e2214f94d1' done
+26.10.18 13:55:12.815	Window closing: Вход в систему
+26.10.18 13:55:12.853	Action 'Logon' done
+26.10.18 13:55:12.855	Window closed: Вход в систему
+26.10.18 13:55:13.112		startUpActions: 1
+26.10.18 13:55:13.143	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.10.18 13:55:13.302	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:55:13.303		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ChooseSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ChooseSkinController
+
+26.10.18 13:55:13.304		SelectedItem: Office 2016 Colorful
+26.10.18 13:55:13.307	Action 'ChooseSkin' done
+26.10.18 13:55:15.394	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:55:15.396		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.10.18 13:55:15.396		SelectedItem: Contact[Варианты представления[All columns,Few columns]]
+26.10.18 13:55:16.921	Action 'ShowNavigationItem' done
+26.10.18 13:55:16.941	Application startup done
+=========================
+26.10.18 13:55:16.942	Application running
+====================
+26.10.18 13:55:19.649	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:55:19.651		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Main Dev
+
+26.10.18 13:55:19.652		SelectedItem: Contact[Варианты представления[All columns,Few columns]]
+26.10.18 13:55:19.924	Action 'ShowNavigationItem' done
+26.10.18 13:55:20.641	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 13:55:20.643		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Mary Tellitson
+
+26.10.18 13:55:21.930	Action 'ListViewShowObject' done
+26.10.18 13:55:32.510	Window closing: Mary Tellitson from the Development Dpt. - XAF2XPO
+26.10.18 13:55:32.550	Window closed: Mary Tellitson from the Development Dpt. - XAF2XPO
+26.10.18 13:55:32.741	Save model changes
+===================
+26.10.18 13:55:33.261	Save model changes
+===================
+26.10.18 13:55:33.335	--------------------------------------------------------------------------------
+							Logoff completed
+
+26.10.18 13:55:33.338	Application stopping
+=====================
+26.10.18 14:24:58.767	================================================================================
+26.10.18 14:24:58.769	Trace Log for XAF2XPO.Win.vshost.exe is started
+26.10.18 14:24:58.770	================================================================================
+26.10.18 14:24:58.773	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 17.2.7.0
+	eXpressApp File Version: 17.2.7.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+26.10.18 14:24:59.005	Initialize application
+=======================
+26.10.18 14:24:59.008		Command line arguments: 
+		C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.vshost.exe
+26.10.18 14:25:02.663	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.10.18 14:25:02.669	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   в DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   в DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   в System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   в DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   в XAF2XPO.Win.XAF2XPOWindowsFormsApplication.InitializeComponent() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\WinApplication.Designer.cs:строка 91
+   в XAF2XPO.Win.XAF2XPOWindowsFormsApplication..ctor() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\WinApplication.cs:строка 26
+   в XAF2XPO.Win.Program.Main() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\Program.cs:строка 28
+   в System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   в System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   в Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+26.10.18 14:25:03.071	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.10.18 14:25:03.073	--------------------------------------------------------------------------------
+							
+
+26.10.18 14:25:03.080	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Data.v17.2.dll
+	DevExpress.ExpressApp.AuditTrail.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v17.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v17.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v17.2.dll
+	DevExpress.ExpressApp.Objects.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v17.2.dll
+	DevExpress.ExpressApp.PivotChart.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v17.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v17.2.dll
+	DevExpress.ExpressApp.ReportsV2.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v17.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v17.2.dll
+	DevExpress.ExpressApp.Scheduler.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v17.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v17.2.dll
+	DevExpress.ExpressApp.Security.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v17.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v17.2.dll
+	DevExpress.ExpressApp.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.v17.2.dll
+	DevExpress.ExpressApp.v17.2.resources, Version=17.2.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v17.2.resources\v4.0_17.2.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v17.2.resources.dll
+	DevExpress.ExpressApp.Validation.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v17.2.dll
+	DevExpress.ExpressApp.Validation.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v17.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v17.2.dll
+	DevExpress.ExpressApp.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v17.2.dll
+	DevExpress.ExpressApp.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v17.2.dll
+	DevExpress.Office.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Office.v17.2.Core.dll
+	DevExpress.Persistent.Base.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.Base.v17.2.dll
+	DevExpress.Persistent.BaseImpl.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v17.2.dll
+	DevExpress.Printing.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Printing.v17.2.Core.dll
+	DevExpress.RichEdit.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.RichEdit.v17.2.Core.dll
+	DevExpress.Utils.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Utils.v17.2.dll
+	DevExpress.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Xpo.v17.2.dll
+	DevExpress.XtraBars.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraBars.v17.2.dll
+	DevExpress.XtraEditors.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraEditors.v17.2.dll
+	DevExpress.XtraPrinting.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPrinting.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraPrinting.v17.2.dll
+	DevExpress.XtraReports.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v17.2.dll
+	DevExpress.XtraReports.v17.2.Extensions, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v17.2.Extensions\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v17.2.Extensions.dll
+	DevExpress.XtraRichEdit.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v17.2.dll
+	DevExpress.XtraScheduler.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraScheduler.v17.2.Core.dll
+	DevExpress.XtraTreeList.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraTreeList.v17.2.dll
+	DevExpress.XtraVerticalGrid.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v17.2.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll
+	vshost32, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.vshost.exe
+	XAF2XPO.Module, Version=1.0.6873.25935, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Module.dll
+	XAF2XPO.Module.Win, Version=1.0.6873.25947, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Module.Win.dll
+	XAF2XPO.Win, Version=1.0.6873.25948, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.exe
+26.10.18 14:25:03.337	SetupModules
+26.10.18 14:25:03.604	Customize TypesInfo
+26.10.18 14:25:06.235		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+26.10.18 14:25:06.243		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+26.10.18 14:25:06.257	Logon With Parameters
+26.10.18 14:25:06.271		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 859d3aa3-0b44-4178-9856-0fba82ed4772
+								Category: Unspecified
+
+26.10.18 14:25:07.177	Generate default Model for Action containers
+26.10.18 14:25:14.866	'Password' property editor: new value is '*******'
+26.10.18 14:25:14.872	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:25:14.874		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Вход в систему
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+26.10.18 14:25:14.877	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:25:14.878		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 859d3aa3-0b44-4178-9856-0fba82ed4772
+								Category: Unspecified
+
+26.10.18 14:25:14.912	--------------------------------------------------------------------------------
+							Start logon process
+
+26.10.18 14:25:14.914	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.10.18 14:25:14.919		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XAF2XPO;XpoDataStorePool=True;
+26.10.18 14:25:14.920		ConnectionString: 
+26.10.18 14:25:17.917	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.10.18 14:25:19.006		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XAF2XPO;XpoDataStorePool=True;
+26.10.18 14:25:21.289	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:25:21.303	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:25:21.312	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:25:21.320	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:25:21.328	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:25:21.335	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:25:22.576	--------------------------------------------------------------------------------
+							Logon successful
+
+26.10.18 14:25:22.771	--------------------------------------------------------------------------------
+							Logon completed
+
+26.10.18 14:25:22.861	Action '859d3aa3-0b44-4178-9856-0fba82ed4772' done
+26.10.18 14:25:22.866	Window closing: Вход в систему
+26.10.18 14:25:22.902	Action 'Logon' done
+26.10.18 14:25:22.905	Window closed: Вход в систему
+26.10.18 14:25:23.117		startUpActions: 1
+26.10.18 14:25:23.150	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.10.18 14:25:23.304	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:25:23.305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ChooseSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ChooseSkinController
+
+26.10.18 14:25:23.307		SelectedItem: Office 2016 Colorful
+26.10.18 14:25:23.308	Action 'ChooseSkin' done
+26.10.18 14:25:25.352	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:25:25.353		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.10.18 14:25:25.354		SelectedItem: Contact[Варианты представления[All columns,Few columns]]
+26.10.18 14:25:26.942	Action 'ShowNavigationItem' done
+26.10.18 14:25:26.959	Application startup done
+=========================
+26.10.18 14:25:26.960	Application running
+====================
+26.10.18 14:25:30.454	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:25:30.456		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Mary Tellitson
+
+26.10.18 14:25:32.385	Action 'ListViewShowObject' done
+26.10.18 14:26:54.424	================================================================================
+26.10.18 14:26:54.426	Trace Log for XAF2XPO.Win.vshost.exe is started
+26.10.18 14:26:54.427	================================================================================
+26.10.18 14:26:54.430	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 17.2.7.0
+	eXpressApp File Version: 17.2.7.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+26.10.18 14:26:54.652	Initialize application
+=======================
+26.10.18 14:26:54.655		Command line arguments: 
+		C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.vshost.exe
+26.10.18 14:26:54.940	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.10.18 14:26:54.944	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   в DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   в DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   в System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   в DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   в XAF2XPO.Win.XAF2XPOWindowsFormsApplication.InitializeComponent() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\WinApplication.Designer.cs:строка 91
+   в XAF2XPO.Win.XAF2XPOWindowsFormsApplication..ctor() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\WinApplication.cs:строка 26
+   в XAF2XPO.Win.Program.Main() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\Program.cs:строка 28
+   в System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   в System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   в Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+26.10.18 14:26:55.389	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.10.18 14:26:55.391	--------------------------------------------------------------------------------
+							
+
+26.10.18 14:26:55.400	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Data.v17.2.dll
+	DevExpress.ExpressApp.AuditTrail.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v17.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v17.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v17.2.dll
+	DevExpress.ExpressApp.Objects.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v17.2.dll
+	DevExpress.ExpressApp.PivotChart.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v17.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v17.2.dll
+	DevExpress.ExpressApp.ReportsV2.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v17.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v17.2.dll
+	DevExpress.ExpressApp.Scheduler.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v17.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v17.2.dll
+	DevExpress.ExpressApp.Security.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v17.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v17.2.dll
+	DevExpress.ExpressApp.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.v17.2.dll
+	DevExpress.ExpressApp.v17.2.resources, Version=17.2.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v17.2.resources\v4.0_17.2.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v17.2.resources.dll
+	DevExpress.ExpressApp.Validation.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v17.2.dll
+	DevExpress.ExpressApp.Validation.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v17.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v17.2.dll
+	DevExpress.ExpressApp.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v17.2.dll
+	DevExpress.ExpressApp.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v17.2.dll
+	DevExpress.Office.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Office.v17.2.Core.dll
+	DevExpress.Persistent.Base.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.Base.v17.2.dll
+	DevExpress.Persistent.BaseImpl.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v17.2.dll
+	DevExpress.Printing.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Printing.v17.2.Core.dll
+	DevExpress.RichEdit.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.RichEdit.v17.2.Core.dll
+	DevExpress.Utils.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Utils.v17.2.dll
+	DevExpress.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Xpo.v17.2.dll
+	DevExpress.XtraBars.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraBars.v17.2.dll
+	DevExpress.XtraEditors.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraEditors.v17.2.dll
+	DevExpress.XtraPrinting.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPrinting.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraPrinting.v17.2.dll
+	DevExpress.XtraReports.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v17.2.dll
+	DevExpress.XtraReports.v17.2.Extensions, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v17.2.Extensions\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v17.2.Extensions.dll
+	DevExpress.XtraRichEdit.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v17.2.dll
+	DevExpress.XtraScheduler.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraScheduler.v17.2.Core.dll
+	DevExpress.XtraTreeList.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraTreeList.v17.2.dll
+	DevExpress.XtraVerticalGrid.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v17.2.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll
+	vshost32, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.vshost.exe
+	XAF2XPO.Module, Version=1.0.6873.26006, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Module.dll
+	XAF2XPO.Module.Win, Version=1.0.6873.26006, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Module.Win.dll
+	XAF2XPO.Win, Version=1.0.6873.26006, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.exe
+26.10.18 14:26:55.783	SetupModules
+26.10.18 14:26:56.008	Customize TypesInfo
+26.10.18 14:26:58.503		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+26.10.18 14:26:58.506		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+26.10.18 14:26:58.530	Logon With Parameters
+26.10.18 14:26:58.537		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 1f70534b-90cb-4bd8-ac51-4aa477f6a65b
+								Category: Unspecified
+
+26.10.18 14:26:59.439	Generate default Model for Action containers
+26.10.18 14:27:09.438	'Password' property editor: new value is '*******'
+26.10.18 14:27:09.447	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:27:09.448		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Вход в систему
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+26.10.18 14:27:09.451	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:27:09.452		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 1f70534b-90cb-4bd8-ac51-4aa477f6a65b
+								Category: Unspecified
+
+26.10.18 14:27:09.488	--------------------------------------------------------------------------------
+							Start logon process
+
+26.10.18 14:27:09.491	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.10.18 14:27:09.495		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XAF2XPO;XpoDataStorePool=True;
+26.10.18 14:27:09.495		ConnectionString: 
+26.10.18 14:27:10.928	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.10.18 14:27:12.178		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XAF2XPO;XpoDataStorePool=True;
+26.10.18 14:27:14.444	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:27:14.458	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:27:14.466	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:27:14.473	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:27:14.479	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:27:14.487	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:27:15.492	--------------------------------------------------------------------------------
+							Logon successful
+
+26.10.18 14:27:15.638	--------------------------------------------------------------------------------
+							Logon completed
+
+26.10.18 14:27:15.714	Action '1f70534b-90cb-4bd8-ac51-4aa477f6a65b' done
+26.10.18 14:27:15.719	Window closing: Вход в систему
+26.10.18 14:27:15.761	Action 'Logon' done
+26.10.18 14:27:15.764	Window closed: Вход в систему
+26.10.18 14:27:16.050		startUpActions: 1
+26.10.18 14:27:16.080	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.10.18 14:27:16.239	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:27:16.240		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ChooseSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ChooseSkinController
+
+26.10.18 14:27:16.241		SelectedItem: Office 2016 Colorful
+26.10.18 14:27:16.244	Action 'ChooseSkin' done
+26.10.18 14:27:18.342	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:27:18.343		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.10.18 14:27:18.344		SelectedItem: Contact[Варианты представления[All columns,Few columns]]
+26.10.18 14:27:19.912	Action 'ShowNavigationItem' done
+26.10.18 14:27:19.943	Application startup done
+=========================
+26.10.18 14:27:19.945	Application running
+====================
+26.10.18 14:27:23.958	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:27:23.960		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Mary Tellitson
+
+26.10.18 14:27:25.421	Action 'ListViewShowObject' done
+26.10.18 14:27:48.567	'Birthday' property editor: new value is '27.11.1982 0:00:00'
+26.10.18 14:27:48.574	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:27:48.576		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Mary Tellitson
+
+26.10.18 14:27:49.254	Action 'SaveAndClose' done
+26.10.18 14:27:51.313	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:27:51.320		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Main Dev
+
+26.10.18 14:27:52.040	Action 'ListViewShowObject' done
+26.10.18 14:27:55.206	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:27:55.208		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Main Dev
+
+26.10.18 14:27:55.209		SelectedItem: Contact[Варианты представления[All columns,Few columns]]
+26.10.18 14:27:55.429	Action 'ShowNavigationItem' done
+26.10.18 14:27:55.450	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:27:55.451		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Main Dev
+
+26.10.18 14:27:55.452		SelectedItem: Contact[Варианты представления[All columns,Few columns]]
+26.10.18 14:27:55.630	Action 'ShowNavigationItem' done
+26.10.18 14:27:56.440	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:27:56.441		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Mary Tellitson
+
+26.10.18 14:27:57.084	Action 'ListViewShowObject' done
+26.10.18 14:31:27.277	================================================================================
+26.10.18 14:31:27.278	Trace Log for XAF2XPO.Win.vshost.exe is started
+26.10.18 14:31:27.279	================================================================================
+26.10.18 14:31:27.282	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 17.2.7.0
+	eXpressApp File Version: 17.2.7.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+26.10.18 14:31:27.496	Initialize application
+=======================
+26.10.18 14:31:27.498		Command line arguments: 
+		C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.vshost.exe
+26.10.18 14:31:27.767	The ValueManagerType is initialized by the default value: SimpleValueManager.
+26.10.18 14:31:27.773	Stack trace:
+   в DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   в DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   в DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   в DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   в DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   в System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   в DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   в XAF2XPO.Win.XAF2XPOWindowsFormsApplication.InitializeComponent() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\WinApplication.Designer.cs:строка 91
+   в XAF2XPO.Win.XAF2XPOWindowsFormsApplication..ctor() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\WinApplication.cs:строка 26
+   в XAF2XPO.Win.Program.Main() в C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\Program.cs:строка 28
+   в System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   в System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   в Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+26.10.18 14:31:28.193	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+26.10.18 14:31:28.195	--------------------------------------------------------------------------------
+							
+
+26.10.18 14:31:28.201	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Data.v17.2.dll
+	DevExpress.ExpressApp.AuditTrail.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.AuditTrail.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.AuditTrail.v17.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v17.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v17.2.dll
+	DevExpress.ExpressApp.Objects.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v17.2.dll
+	DevExpress.ExpressApp.PivotChart.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.v17.2.dll
+	DevExpress.ExpressApp.PivotChart.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotChart.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotChart.Win.v17.2.dll
+	DevExpress.ExpressApp.ReportsV2.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v17.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v17.2.dll
+	DevExpress.ExpressApp.Scheduler.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.v17.2.dll
+	DevExpress.ExpressApp.Scheduler.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v17.2.dll
+	DevExpress.ExpressApp.Security.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v17.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v17.2.dll
+	DevExpress.ExpressApp.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.v17.2.dll
+	DevExpress.ExpressApp.v17.2.resources, Version=17.2.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v17.2.resources\v4.0_17.2.0.0_ru_b88d1754d700e49a\DevExpress.ExpressApp.v17.2.resources.dll
+	DevExpress.ExpressApp.Validation.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v17.2.dll
+	DevExpress.ExpressApp.Validation.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v17.2.dll
+	DevExpress.ExpressApp.ViewVariantsModule.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ViewVariantsModule.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ViewVariantsModule.v17.2.dll
+	DevExpress.ExpressApp.Win.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v17.2.dll
+	DevExpress.ExpressApp.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v17.2.dll
+	DevExpress.Office.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Office.v17.2.Core.dll
+	DevExpress.Persistent.Base.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.Base.v17.2.dll
+	DevExpress.Persistent.BaseImpl.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v17.2.dll
+	DevExpress.Printing.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Printing.v17.2.Core.dll
+	DevExpress.RichEdit.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.RichEdit.v17.2.Core.dll
+	DevExpress.Utils.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Utils.v17.2.dll
+	DevExpress.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.Xpo.v17.2.dll
+	DevExpress.XtraBars.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraBars.v17.2.dll
+	DevExpress.XtraEditors.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraEditors.v17.2.dll
+	DevExpress.XtraPrinting.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPrinting.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraPrinting.v17.2.dll
+	DevExpress.XtraReports.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v17.2.dll
+	DevExpress.XtraReports.v17.2.Extensions, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v17.2.Extensions\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v17.2.Extensions.dll
+	DevExpress.XtraRichEdit.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v17.2.dll
+	DevExpress.XtraScheduler.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v17.2.Core\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraScheduler.v17.2.Core.dll
+	DevExpress.XtraTreeList.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraTreeList.v17.2.dll
+	DevExpress.XtraVerticalGrid.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v17.2\v4.0_17.2.7.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v17.2.dll
+	Microsoft.VisualStudio.Debugger.Runtime, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll
+	Microsoft.VisualStudio.HostingProcess.Utilities.Sync, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=ru, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_ru_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\UIAutomationTypes\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationTypes.dll
+	vshost32, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.vshost.exe
+	XAF2XPO.Module, Version=1.0.6873.26135, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Module.dll
+	XAF2XPO.Module.Win, Version=1.0.6873.26142, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Module.Win.dll
+	XAF2XPO.Win, Version=1.0.6873.26142, Culture=neutral, PublicKeyToken=null, Location=C:\Users\SHER\Documents\Visual Studio 2015\Projects\Новая папка\XAF2XPO\XAF2XPO.Win\bin\Debug\XAF2XPO.Win.exe
+26.10.18 14:31:28.496	SetupModules
+26.10.18 14:31:28.729	Customize TypesInfo
+26.10.18 14:31:30.983		preferredLanguageName: (User language)
+								userLanguageName: ru-RU
+
+26.10.18 14:31:30.987		preferredLanguageName: (User language)
+								userFormattingCultureName: ru-RU
+								selectedFormattingCultureName: 
+
+26.10.18 14:31:30.991	Logon With Parameters
+26.10.18 14:31:30.998		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 89234a98-b788-4a83-9026-ee17e08afd08
+								Category: Unspecified
+
+26.10.18 14:31:32.026	Generate default Model for Action containers
+26.10.18 14:31:34.671	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:31:34.672		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Вход в систему
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+26.10.18 14:31:34.676	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:31:34.677		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 89234a98-b788-4a83-9026-ee17e08afd08
+								Category: Unspecified
+
+26.10.18 14:31:34.705	--------------------------------------------------------------------------------
+							Start logon process
+
+26.10.18 14:31:34.707	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+26.10.18 14:31:34.711		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XAF2XPO;XpoDataStorePool=True;
+26.10.18 14:31:34.713		ConnectionString: 
+26.10.18 14:31:36.155	--------------------------------------------------------------------------------
+							UpdateDB
+
+26.10.18 14:31:37.343		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(localdb)\mssqllocaldb;Initial Catalog=XAF2XPO;XpoDataStorePool=True;
+26.10.18 14:31:39.769	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:31:39.784	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:31:39.791	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:31:39.798	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:31:39.805	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:31:39.812	Resolve the 'DevExpress.ExpressApp.Security.v15.2' assembly
+26.10.18 14:31:40.486	--------------------------------------------------------------------------------
+							Logon successful
+
+26.10.18 14:31:40.658	--------------------------------------------------------------------------------
+							Logon completed
+
+26.10.18 14:31:40.765	Action '89234a98-b788-4a83-9026-ee17e08afd08' done
+26.10.18 14:31:40.777	Window closing: Вход в систему
+26.10.18 14:31:40.838	Action 'Logon' done
+26.10.18 14:31:40.840	Window closed: Вход в систему
+26.10.18 14:31:41.069		startUpActions: 1
+26.10.18 14:31:41.097	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+26.10.18 14:31:41.256	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:31:41.257		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ChooseSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ChooseSkinController
+
+26.10.18 14:31:41.259		SelectedItem: Office 2016 Colorful
+26.10.18 14:31:41.260	Action 'ChooseSkin' done
+26.10.18 14:31:43.304	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:31:43.305		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+26.10.18 14:31:43.306		SelectedItem: Contact[Варианты представления[All columns,Few columns]]
+26.10.18 14:31:44.863	Action 'ShowNavigationItem' done
+26.10.18 14:31:44.880	Application startup done
+=========================
+26.10.18 14:31:44.881	Application running
+====================
+26.10.18 14:31:47.171	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:31:47.172		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Contact
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Main Dev
+
+26.10.18 14:31:47.173		SelectedItem: Роль
+26.10.18 14:31:47.451	Action 'ShowNavigationItem' done
+26.10.18 14:31:52.301	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:31:52.302		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+								Context.Name: Роль
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(0dff3104-6225-4df8-8027-91bc08b13585)
+
+26.10.18 14:31:52.303		SelectedItem: Пользователь
+26.10.18 14:31:52.424	Action 'ShowNavigationItem' done
+26.10.18 14:32:04.141	--------------------------------------------------------------------------------
+							Execute action
+
+26.10.18 14:32:04.143		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Пользователь
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Bree
+
+26.10.18 14:32:05.005	Action 'ListViewShowObject' done
